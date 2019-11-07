@@ -1,0 +1,2 @@
+./ill-test-5K-1.fa
+./ill-test-5K-2.fa

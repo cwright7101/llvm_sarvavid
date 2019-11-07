@@ -1,0 +1,77 @@
+/*Implementation of BLAST using sarvavid libraries
+ *Meant to be used with the Sarvavid embedded compiler
+ *written 11-14-2017 by Christopher Wright
+*/
+#include <stdio.h>
+#include <mpi.h>
+#include <omp.h>
+#include <iostream>
+#include <unordered_set>
+#include <multimap>
+#include <string>
+
+#include <sarv/types.h>
+#include <sarv/kmerize.h>
+#include <sarv/indexGen.h>
+#include <sarv/simularityComp.h>
+#include <sarv/IO.h>
+
+const double K_ungapped=0.7;
+const double H = 1.3;
+const double lambda = 1.4;
+const int size_ent = 31250000;
+double E_value = 10;
+
+int main(int argc, char* argv[]){
+    std::multimap <std::string,int> k_mersq;//kmer map for query
+    std::multimap <std::string,int> k_mersd;//kmer map for database
+
+    int kmer_len = argv[1];//get the kmer length. For nucleotides should be = 11, proteins =3
+
+    //get the query and database sequences
+    std::string query = sarv_fileToString(argv[2]);
+    std::string database = sarv_fileToString(argv[3]);
+
+    //remove low-complexity regions (remove X or N from the sequences), also remove \n and spaces from the sequences
+    sarv_removeLowComplexity(query);
+    sarv_removeLowComplexity(database);
+
+    //this is to get the blast threshold default as explained in their paper
+    act_db=database.length();
+    act_query=query.length();
+    A = log(act_db*act_query*K_ungapped/H);
+    eff_db = act_db - A;
+    eff_query = act_query - A;
+    THRESHOLD = 1 + (log(K_ungapped*eff_db*eff_query/E_value))/lambda;
+
+    //kmerize the query sequence
+    sarv_kmerize(query, kmer_len, k_mersq);//k_mersq is passed by reference
+
+    //index the query kmers
+    std::unordered_set<sarv_Index> qlookupTable;
+    sarv_indexGen(k_mersq, qlookupTable);//k_mersq and qlookupTable are passed by reference
+
+    //kmerize the database sequence
+    sarv_kmerize(database, kmer_len, k_mersd);
+
+    std::list<sarv_Index> hitList;
+    for(auto dSet = k_mersd.begin(), end = k_mersd.end(); dSet!=end(); ++dSet){
+        hitList.insert(sarv_indexLookup(qlookupTable, *dSet));
+    }
+
+    std::list<sarv_Alignment> ungapped_list;
+    for(auto hit = hitList.begin(), end = hitList.end(); hit!=end(); ++hit){
+        auto alignment = sarv_simularityComp(*hit, query, database, UNGAPPED);
+        if(alignment.score > THRESHOLD)
+            ungapped_list.insert(alignment);
+    }
+
+    std::list<sarv_Alignment> gapped_list;
+    for(auto it = ungapped_list.begin(), end = ungapped_list.end(); it!=end(); ++it){
+        auto alignment = sarv_simularityComp(*it, query, database, GAPPED);
+        if(alignment.score > THRESHOLD)
+            gapped_list.insert(alignment);
+    }
+
+    sarv_printAlignments(gapped_list);
+}

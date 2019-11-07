@@ -1,0 +1,65 @@
+/*****************************************************************************
+ *   GATB : Genome Assembly Tool Box
+ *   Copyright (C) 2014  INRIA
+ *   Authors: R.Chikhi, G.Rizk, E.Drezen
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Affero General Public License as
+ *  published by the Free Software Foundation, either version 3 of the
+ *  License, or (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Affero General Public License for more details.
+ *
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*****************************************************************************/
+
+#ifndef _GATB_TOOLS_MINIA_HPP_
+#define _GATB_TOOLS_MINIA_HPP_
+
+/********************************************************************************/
+
+#include <gatb/gatb_core.hpp>
+#include <gatb/debruijn/impl/GraphUnitigs.hpp>
+#include <string>
+
+/********************************************************************************/
+
+/**
+ */
+class Minia : public gatb::core::tools::misc::impl::Tool
+{
+public:
+
+    /** Constructor. */
+    Minia ();
+
+    /** \copydoc Tool::execute. */
+    void  execute ();
+
+    /** */
+    template <typename Graph_type, typename Node, typename Edge, size_t span>
+    std::string assemble (/*const*/ Graph_type& graph);
+    
+    u_int64_t nbContigs         ;
+    unsigned int k;
+private:
+
+    /** */
+    template <typename Graph_type, typename Node, typename Edge, size_t span>
+    void assembleFrom (Node startingNode, Graph_type& graph, IBank *outputBank);
+
+    bool keepIsolatedTigs;
+    u_int64_t nbSmallContigs    ;
+    u_int64_t totalNt           ;
+    u_int64_t maxContigLen      ;
+
+};
+
+/********************************************************************************/
+
+#endif /* _GATB_TOOLS_MINIA_HPP_ */
+

@@ -1,0 +1,241 @@
+//every function call in the library has to be in this file
+//each function below is a kernel library call
+//inside each is a rules section and a signatures section
+//rules will tell the rules for doing the optimizations
+//have a baseline function that has a score for amount of memory used, speed, accuracy and weight
+//Scoring goes in order: Speed (seconds), CPU Memory Usage (MB), GPU Memory Usage(MB),  Accuracy(%), Weight Score
+
+//Rules for format:::
+//Must have Kernels section at the top which has the base api of each kernel
+//Then you must have each kernel after in their own section. Start the section with the base api name, then open and close parens and open bracket
+//Have the Rules section followed by Signatures section.
+//For signatures section, inlude just the extra name of function after the base name. Have open parans then 5 different scores as mentioned above
+//At the end of signatures, have a closing bracket
+//At the end of a base api section, close with a bracket
+
+//datastructure types:
+// 1 fasta File
+// 2 String
+// 3 map
+// 4 set
+// 5 array
+
+//DO NOT PUT ANYTHING BEFORE THIS, IT MUST BE AT THE TOP, YOU MAY ADD TO IT
+Kernels{
+    fileToString();
+    removeLowComplexity();
+    kmerize();
+    indexGen();
+    indexLookup();
+    simularityCompUngapped();
+    simularityCompGapped();
+    printAlignments();
+    clustering();
+    graphConst();
+    graphTrav();
+    errCorrection();
+}
+//DO NOT CHANGE THE ORDER OF THIS, IT MUST BE AT THE TOP
+
+
+//THESE MAY CHANGE ORDER IF YOU WANT, MAY ADD TO IT
+fileToString(){
+    Rules{
+        loopFusion()
+        commonSubExElimination()
+        loopInvarCodeMotion()
+        funcVersionSelection()
+        dataStructureSelection()
+        clusterize()
+        partitionAggregate()
+    }
+    Signatures{
+        CPU(3, 1000, 0, 100, 0, 1, 2);
+    }
+}
+
+removeLowComplexity(){
+    Rules{
+        loopFusion()
+        commonSubExElimination()
+        loopInvarCodeMotion()
+        funcVersionSelection()
+        dataStructureSelection()
+        clusterize()
+        partitionAggregate()
+    }
+    Signatures{
+        CPU(10, 200, 0, 95, 0, 1, 1);
+        GPU(5, 200, 200, 90, 0, 1, 1){if(NUM_NVIDIA_GPUS > 1)}
+        Cluster(9999, 9999, 9999, 0, 9999, 1, 1){if(NUM_NODES > 8)}
+    }
+}
+
+kmerize(){
+    Rules{
+        loopFusion()
+        commonSubExElimination()
+        loopInvarCodeMotion()
+        funcVersionSelection()
+        dataStructureSelection()
+        clusterize()
+        partitionAggregate()
+    }
+    Signatures{
+        CPU(50, 500, 0, 100, 0, 1, 1);
+        GPU1(20, 1000, 1000, 100, 0, 1, 1);
+        //{if(kmerLen <= 14)}
+        GPU2(30, 1000, 500, 100, 0, 1, 1);
+        CLUSTER(9999, 9999, 9999, 0, 9999, 1, 1);
+    }
+}
+
+indexGen(){
+    Rules{
+        loopFusion()
+        commonSubExElimination()
+        loopInvarCodeMotion()
+        funcVersionSelection()
+        dataStructureSelection()
+        clusterize()
+        partitionAggregate()
+    }
+    Signatures{
+        CPU(10, 500, 0, 100, 0, 1, 1);
+        GPU(5, 500, 1000, 100, 0, 1, 1);
+        Cluster(9999, 9999, 9999, 0, 9999, 1, 1);
+    }
+}
+
+indexLookup(){
+    Rules{
+        loopFusion()
+        commonSubExElimination()
+        loopInvarCodeMotion()
+        funcVersionSelection()
+        dataStructureSelection()
+        clusterize()
+        partitionAggregate()
+    }
+    Signatures{
+        CPU(1, 500, 0, 100, 0, 1, 1);
+        GPU(5, 500, 1000, 100, 0, 1, 1);
+        Cluster(9999, 9999, 9999, 0, 9999, 1, 1);
+    }
+}
+
+simularityCompUngapped(){
+    Rules{
+        loopFusion()
+        commonSubExElimination()
+        loopInvarCodeMotion()
+        funcVersionSelection()
+        dataStructureSelection()
+        clusterize()
+        partitionAggregate()
+    }
+    Signatures{
+        CPU(20, 1000, 0, 90, 0, 1, 1);
+        //GPU(8, 1000, 2000, 90, 0);
+        //Cluster(9999, 9999, 9999, 0, 9999);
+    }
+}
+simularityCompGapped(){
+    Rules{
+        loopFusion()
+        commonSubExElimination()
+        loopInvarCodeMotion()
+        funcVersionSelection()
+        dataStructureSelection()
+        clusterize()
+        partitionAggregate()
+    }
+    Signatures{
+        CPU(20, 1000, 0, 90, 0, 1, 1);
+        //GPU(8, 1000, 2000, 90, 0);
+        //Cluster(9999, 9999, 9999, 0, 9999);
+    }
+}
+
+printAlignments(){
+    Rules{
+        loopFusion()
+        commonSubExElimination()
+        loopInvarCodeMotion()
+        funcVersionSelection()
+        dataStructureSelection()
+        clusterize()
+        partitionAggregate()
+    }
+    Signatures{
+        CPU(10, 1000, 0, 100, 0, 1, 1);
+    }
+}
+
+clustering(){
+    Rules{
+        loopFusion()
+        commonSubExElimination()
+        loopInvarCodeMotion()
+        funcVersionSelection()
+        dataStructureSelection()
+        clusterize()
+        partitionAggregate()
+    }
+    Signatures{
+    	CPU(9999, 9999, 9999, 0, 9999, 1, 1);
+    }
+}
+
+graphConst(){
+    Rules{
+        loopFusion()
+        commonSubExElimination()
+        loopInvarCodeMotion()
+        funcVersionSelection()
+        dataStructureSelection()
+        clusterize()
+        partitionAggregate()
+    }
+    Signatures{
+    	CPU(9999, 9999, 9999, 0, 9999, 1, 1);
+    }
+}
+
+graphTrav(){
+    Rules{
+        loopFusion()
+        commonSubExElimination()
+        loopInvarCodeMotion()
+        funcVersionSelection()
+        dataStructureSelection()
+        clusterize()
+        partitionAggregate()
+    }
+    Signatures{
+    	CPU(9999, 9999, 9999, 0, 9999, 1, 1);
+    }
+}
+
+errCorrection(){
+    Rules{
+        loopFusion()
+        commonSubExElimination()
+        loopInvarCodeMotion()
+        funcVersionSelection()
+        dataStructureSelection()
+        clusterize()
+        partitionAggregate()
+    }
+    Signatures{
+    	CPU(9999, 9999, 9999, 0, 9999, 1, 1);
+    }
+}
+// 1 = FASTA, 2 = STRING, 3 = MAP, 4 = SET, 5 = ARRAY
+Penalties(){
+	1(0, 8, 12, 10, 8)
+	2(8, 0, 10, 8, 1)
+	3(10, 8, 0, 6, 6)
+	4(8, 7, 6, 0, 7)
+	5(4, 1, 5, 4, 0)
+}
