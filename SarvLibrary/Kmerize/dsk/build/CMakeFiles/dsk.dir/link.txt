@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/dsk.dir/src/DSK.cpp.o CMakeFiles/dsk.dir/src/main.cpp.o  -o bin/dsk ext/gatb-core/lib/libgatbcore.a -ldl -lpthread -lz ext/gatb-core/lib/libhdf5.a -lm -lz -ldl 

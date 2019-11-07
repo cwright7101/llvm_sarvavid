@@ -1,0 +1,8 @@
+/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/gerbil/build/CMakeFiles/install/strip.dir
+/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/gerbil/build/CMakeFiles/install/local.dir
+/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/gerbil/build/CMakeFiles/toFasta.dir
+/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/gerbil/build/CMakeFiles/gerbil.dir
+/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/gerbil/build/CMakeFiles/install.dir
+/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/gerbil/build/CMakeFiles/edit_cache.dir
+/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/gerbil/build/CMakeFiles/rebuild_cache.dir
+/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/gerbil/build/CMakeFiles/list_install_components.dir

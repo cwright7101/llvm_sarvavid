@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/dsk2ascii.dir/dsk2ascii.cpp.o  -o ../bin/dsk2ascii ../ext/gatb-core/lib/libgatbcore.a -ldl -lpthread -lz ../ext/gatb-core/lib/libhdf5.a -lm -lz -ldl 

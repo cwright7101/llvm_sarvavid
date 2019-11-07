@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/lordec-trim.dir/lordec-trim/src/lordec-trim.cpp.o  -o lordec-trim ../ext/gatb-core/lib/libgatbcore.a -ldl -lpthread -lz ../ext/gatb-core/lib/libhdf5.a -lm -ldl 

@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/lordec-correct.dir/lordec-correct/src/lordec-correct.cpp.o  -o lordec-correct ../ext/gatb-core/lib/libgatbcore.a -ldl -lpthread -lz ../ext/gatb-core/lib/libhdf5.a -lm -ldl 

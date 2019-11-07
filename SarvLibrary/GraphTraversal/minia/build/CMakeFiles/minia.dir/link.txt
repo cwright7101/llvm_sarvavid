@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/minia.dir/src/GraphSimplificationAttempts.cpp.o CMakeFiles/minia.dir/src/Minia.cpp.o CMakeFiles/minia.dir/src/main.cpp.o  -o bin/minia ext/gatb-core/lib/libgatbcore.a -ldl -lpthread -lz ext/gatb-core/lib/libhdf5.a -lm -lz -ldl 

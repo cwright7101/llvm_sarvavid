@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/merci.dir/merci/merci.cpp.o  -o bin/merci ext/gatb-core/lib/libgatbcore.a -ldl -lpthread -lz ext/gatb-core/lib/libhdf5.a -lm -lz -ldl 

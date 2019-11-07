@@ -1,0 +1,799 @@
+Determining size of __uint128 failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_890d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_890d5.dir/build.make CMakeFiles/cmTC_890d5.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_890d5.dir/int128_t_USE__uint128.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_890d5.dir/int128_t_USE__uint128.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CheckTypeSize/int128_t_USE__uint128.c
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CheckTypeSize/int128_t_USE__uint128.c:23:22: error: ‘__uint128’ undeclared here (not in a function)
+ #define SIZE (sizeof(__uint128))
+                      ^
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CheckTypeSize/int128_t_USE__uint128.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_890d5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_890d5.dir/int128_t_USE__uint128.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_890d5.dir/int128_t_USE__uint128.c.o] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_890d5/fast' failed
+make: *** [cmTC_890d5/fast] Error 2
+
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CheckTypeSize/int128_t_USE__uint128.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__uint128))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function WSAStartup exists in the ws2_32;m;dl failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e9ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e9ec.dir/build.make CMakeFiles/cmTC_0e9ec.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e9ec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=WSAStartup   -o CMakeFiles/cmTC_0e9ec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0e9ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e9ec.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=WSAStartup    -rdynamic CMakeFiles/cmTC_0e9ec.dir/CheckFunctionExists.c.o  -o cmTC_0e9ec -lws2_32 -lm -ldl 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lws2_32
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0e9ec.dir/build.make:97: recipe for target 'cmTC_0e9ec' failed
+make[1]: *** [cmTC_0e9ec] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0e9ec/fast' failed
+make: *** [cmTC_0e9ec/fast] Error 2
+
+
+Determining if the function gethostbyname exists in the wsock32;m;dl failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a14e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a14e3.dir/build.make CMakeFiles/cmTC_a14e3.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a14e3.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_a14e3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a14e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a14e3.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_a14e3.dir/CheckFunctionExists.c.o  -o cmTC_a14e3 -lwsock32 -lm -ldl 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lwsock32
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a14e3.dir/build.make:97: recipe for target 'cmTC_a14e3' failed
+make[1]: *** [cmTC_a14e3] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a14e3/fast' failed
+make: *** [cmTC_a14e3/fast] Error 2
+
+
+Determining if the function gethostname exists in the ucb;m;dl failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b35c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b35c9.dir/build.make CMakeFiles/cmTC_b35c9.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b35c9.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=gethostname   -o CMakeFiles/cmTC_b35c9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b35c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b35c9.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=gethostname    -rdynamic CMakeFiles/cmTC_b35c9.dir/CheckFunctionExists.c.o  -o cmTC_b35c9 -lucb -lm -ldl 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lucb
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b35c9.dir/build.make:97: recipe for target 'cmTC_b35c9' failed
+make[1]: *** [cmTC_b35c9] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b35c9/fast' failed
+make: *** [cmTC_b35c9/fast] Error 2
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;mach/mach_time.h exist failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_430ad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_430ad.dir/build.make CMakeFiles/cmTC_430ad.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_430ad.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_430ad.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:14:28: fatal error: mach/mach_time.h: No such file or directory
+ #include <mach/mach_time.h>
+                            ^
+compilation terminated.
+CMakeFiles/cmTC_430ad.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_430ad.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_430ad.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_430ad/fast' failed
+make: *** [cmTC_430ad/fast] Error 2
+
+Source:
+/* */
+#include <sys/resource.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <setjmp.h>
+#include <features.h>
+#include <dirent.h>
+#include <stdint.h>
+#include <mach/mach_time.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;io.h exist failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a4f2c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a4f2c.dir/build.make CMakeFiles/cmTC_a4f2c.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4f2c.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_a4f2c.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:14:16: fatal error: io.h: No such file or directory
+ #include <io.h>
+                ^
+compilation terminated.
+CMakeFiles/cmTC_a4f2c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a4f2c.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a4f2c.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a4f2c/fast' failed
+make: *** [cmTC_a4f2c/fast] Error 2
+
+Source:
+/* */
+#include <sys/resource.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <setjmp.h>
+#include <features.h>
+#include <dirent.h>
+#include <stdint.h>
+#include <io.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;winsock2.h exist failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c36e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c36e7.dir/build.make CMakeFiles/cmTC_c36e7.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c36e7.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_c36e7.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:14:22: fatal error: winsock2.h: No such file or directory
+ #include <winsock2.h>
+                      ^
+compilation terminated.
+CMakeFiles/cmTC_c36e7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c36e7.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_c36e7.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c36e7/fast' failed
+make: *** [cmTC_c36e7/fast] Error 2
+
+Source:
+/* */
+#include <sys/resource.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <setjmp.h>
+#include <features.h>
+#include <dirent.h>
+#include <stdint.h>
+#include <winsock2.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;sys/timeb.h;globus/common.h exist failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f27f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f27f0.dir/build.make CMakeFiles/cmTC_f27f0.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f27f0.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_f27f0.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:15:27: fatal error: globus/common.h: No such file or directory
+ #include <globus/common.h>
+                           ^
+compilation terminated.
+CMakeFiles/cmTC_f27f0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f27f0.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f27f0.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f27f0/fast' failed
+make: *** [cmTC_f27f0/fast] Error 2
+
+Source:
+/* */
+#include <sys/resource.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <setjmp.h>
+#include <features.h>
+#include <dirent.h>
+#include <stdint.h>
+#include <sys/timeb.h>
+#include <globus/common.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;sys/timeb.h;pdb.h exist failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f624/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f624.dir/build.make CMakeFiles/cmTC_8f624.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f624.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_8f624.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:15:17: fatal error: pdb.h: No such file or directory
+ #include <pdb.h>
+                 ^
+compilation terminated.
+CMakeFiles/cmTC_8f624.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8f624.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8f624.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8f624/fast' failed
+make: *** [cmTC_8f624/fast] Error 2
+
+Source:
+/* */
+#include <sys/resource.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <setjmp.h>
+#include <features.h>
+#include <dirent.h>
+#include <stdint.h>
+#include <sys/timeb.h>
+#include <pdb.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;sys/timeb.h;pthread.h;srbclient.h exist failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57077/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57077.dir/build.make CMakeFiles/cmTC_57077.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57077.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_57077.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:16:23: fatal error: srbclient.h: No such file or directory
+ #include <srbclient.h>
+                       ^
+compilation terminated.
+CMakeFiles/cmTC_57077.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_57077.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_57077.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_57077/fast' failed
+make: *** [cmTC_57077/fast] Error 2
+
+Source:
+/* */
+#include <sys/resource.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <setjmp.h>
+#include <features.h>
+#include <dirent.h>
+#include <stdint.h>
+#include <sys/timeb.h>
+#include <pthread.h>
+#include <srbclient.h>
+
+
+int main(void){return 0;}
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67673/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67673.dir/build.make CMakeFiles/cmTC_67673.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67673.dir/H5_SIZEOF___INT64.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_67673.dir/H5_SIZEOF___INT64.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:23:22: error: ‘__int64’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int64))
+                      ^
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_67673.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_67673.dir/H5_SIZEOF___INT64.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_67673.dir/H5_SIZEOF___INT64.c.o] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_67673/fast' failed
+make: *** [cmTC_67673/fast] Error 2
+
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the variable CLOCK_MONOTONIC exists failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f148/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f148.dir/build.make CMakeFiles/cmTC_5f148.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f148.dir/CheckVariableExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_VARIABLE_EXISTS=CLOCK_MONOTONIC   -o CMakeFiles/cmTC_5f148.dir/CheckVariableExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckVariableExists.c
+Linking C executable cmTC_5f148
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f148.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_VARIABLE_EXISTS=CLOCK_MONOTONIC    -rdynamic CMakeFiles/cmTC_5f148.dir/CheckVariableExists.c.o  -o cmTC_5f148 -lm -ldl 
+CMakeFiles/cmTC_5f148.dir/CheckVariableExists.c.o: In function `main':
+CheckVariableExists.c:(.text+0x25): undefined reference to `CLOCK_MONOTONIC'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5f148.dir/build.make:97: recipe for target 'cmTC_5f148' failed
+make[1]: *** [cmTC_5f148] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5f148/fast' failed
+make: *** [cmTC_5f148/fast] Error 2
+
+
+Performing Other Test HAVE___TM_GMTOFF failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b979a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b979a.dir/build.make CMakeFiles/cmTC_b979a.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b979a.dir/HDFTests.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt -DHAVE___TM_GMTOFF  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_b979a.dir/HDFTests.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake_ext_mod/HDFTests.c
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake_ext_mod/HDFTests.c: In function ‘main’:
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake_ext_mod/HDFTests.c:170:29: error: ‘struct tm’ has no member named ‘__tm_gmtoff’; did you mean ‘tm_gmtoff’?
+ SIMPLE_TEST(struct tm tm; tm.__tm_gmtoff=0);
+                             ^
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake_ext_mod/HDFTests.c:1:36: note: in definition of macro ‘SIMPLE_TEST’
+ #define SIMPLE_TEST(x) int main(){ x; return 0; }
+                                    ^
+CMakeFiles/cmTC_b979a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b979a.dir/HDFTests.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b979a.dir/HDFTests.c.o] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b979a/fast' failed
+make: *** [cmTC_b979a/fast] Error 2
+
+Performing Other Test HAVE_TM_ZONE failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23d59/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23d59.dir/build.make CMakeFiles/cmTC_23d59.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23d59.dir/HDFTests.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt -DHAVE_TM_ZONE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_23d59.dir/HDFTests.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake_ext_mod/HDFTests.c
+Linking C executable cmTC_23d59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23d59.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DHAVE_TM_ZONE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE    -rdynamic CMakeFiles/cmTC_23d59.dir/HDFTests.c.o  -o cmTC_23d59 -lm -ldl 
+/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_23d59.dir/build.make:97: recipe for target 'cmTC_23d59' failed
+make[1]: *** [cmTC_23d59] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_23d59/fast' failed
+make: *** [cmTC_23d59/fast] Error 2
+
+Performing Other Test HAVE_STRUCT_TM_TM_ZONE failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0130d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0130d.dir/build.make CMakeFiles/cmTC_0130d.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0130d.dir/HDFTests.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt -DHAVE_STRUCT_TM_TM_ZONE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_0130d.dir/HDFTests.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake_ext_mod/HDFTests.c
+Linking C executable cmTC_0130d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0130d.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DHAVE_STRUCT_TM_TM_ZONE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE    -rdynamic CMakeFiles/cmTC_0130d.dir/HDFTests.c.o  -o cmTC_0130d -lm -ldl 
+/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0130d.dir/build.make:97: recipe for target 'cmTC_0130d' failed
+make[1]: *** [cmTC_0130d] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0130d/fast' failed
+make: *** [cmTC_0130d/fast] Error 2
+
+Performing Other Test HAVE_STRUCT_VIDEOCONFIG failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec778/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ec778.dir/build.make CMakeFiles/cmTC_ec778.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec778.dir/HDFTests.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt -DHAVE_STRUCT_VIDEOCONFIG  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_ec778.dir/HDFTests.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake_ext_mod/HDFTests.c
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake_ext_mod/HDFTests.c: In function ‘main’:
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake_ext_mod/HDFTests.c:447:32: error: storage size of ‘w’ isn’t known
+ SIMPLE_TEST(struct videoconfig w; w.numtextcols=0);
+                                ^
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake_ext_mod/HDFTests.c:1:36: note: in definition of macro ‘SIMPLE_TEST’
+ #define SIMPLE_TEST(x) int main(){ x; return 0; }
+                                    ^
+CMakeFiles/cmTC_ec778.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ec778.dir/HDFTests.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ec778.dir/HDFTests.c.o] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ec778/fast' failed
+make: *** [cmTC_ec778/fast] Error 2
+
+Performing Other Test HAVE_STRUCT_TEXT_INFO failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51e36/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51e36.dir/build.make CMakeFiles/cmTC_51e36.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51e36.dir/HDFTests.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt -DHAVE_STRUCT_TEXT_INFO  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_51e36.dir/HDFTests.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake_ext_mod/HDFTests.c
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake_ext_mod/HDFTests.c: In function ‘main’:
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake_ext_mod/HDFTests.c:453:30: error: storage size of ‘w’ isn’t known
+ SIMPLE_TEST(struct text_info w; w.screenwidth=0);
+                              ^
+/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake_ext_mod/HDFTests.c:1:36: note: in definition of macro ‘SIMPLE_TEST’
+ #define SIMPLE_TEST(x) int main(){ x; return 0; }
+                                    ^
+CMakeFiles/cmTC_51e36.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_51e36.dir/HDFTests.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_51e36.dir/HDFTests.c.o] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_51e36/fast' failed
+make: *** [cmTC_51e36/fast] Error 2
+
+Determining if the function _getvideoconfig exists failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_382c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_382c4.dir/build.make CMakeFiles/cmTC_382c4.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_382c4.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=_getvideoconfig   -o CMakeFiles/cmTC_382c4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_382c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_382c4.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=_getvideoconfig    -rdynamic CMakeFiles/cmTC_382c4.dir/CheckFunctionExists.c.o  -o cmTC_382c4 -lm -ldl 
+CMakeFiles/cmTC_382c4.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_getvideoconfig'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_382c4.dir/build.make:97: recipe for target 'cmTC_382c4' failed
+make[1]: *** [cmTC_382c4] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_382c4/fast' failed
+make: *** [cmTC_382c4/fast] Error 2
+
+
+Determining if the function gettextinfo exists failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c0cbf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c0cbf.dir/build.make CMakeFiles/cmTC_c0cbf.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0cbf.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=gettextinfo   -o CMakeFiles/cmTC_c0cbf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c0cbf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0cbf.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=gettextinfo    -rdynamic CMakeFiles/cmTC_c0cbf.dir/CheckFunctionExists.c.o  -o cmTC_c0cbf -lm -ldl 
+CMakeFiles/cmTC_c0cbf.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `gettextinfo'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c0cbf.dir/build.make:97: recipe for target 'cmTC_c0cbf' failed
+make[1]: *** [cmTC_c0cbf] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c0cbf/fast' failed
+make: *** [cmTC_c0cbf/fast] Error 2
+
+
+Determining if the function _scrsize exists failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5538f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5538f.dir/build.make CMakeFiles/cmTC_5538f.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5538f.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=_scrsize   -o CMakeFiles/cmTC_5538f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5538f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5538f.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=_scrsize    -rdynamic CMakeFiles/cmTC_5538f.dir/CheckFunctionExists.c.o  -o cmTC_5538f -lm -ldl 
+CMakeFiles/cmTC_5538f.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_scrsize'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5538f.dir/build.make:97: recipe for target 'cmTC_5538f' failed
+make[1]: *** [cmTC_5538f] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5538f/fast' failed
+make: *** [cmTC_5538f/fast] Error 2
+
+
+Determining if the function GetConsoleScreenBufferInfo exists failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d175/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d175.dir/build.make CMakeFiles/cmTC_7d175.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d175.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=GetConsoleScreenBufferInfo   -o CMakeFiles/cmTC_7d175.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7d175
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d175.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=GetConsoleScreenBufferInfo    -rdynamic CMakeFiles/cmTC_7d175.dir/CheckFunctionExists.c.o  -o cmTC_7d175 -lm -ldl 
+CMakeFiles/cmTC_7d175.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `GetConsoleScreenBufferInfo'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7d175.dir/build.make:97: recipe for target 'cmTC_7d175' failed
+make[1]: *** [cmTC_7d175] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7d175/fast' failed
+make: *** [cmTC_7d175/fast] Error 2
+
+
+Determining if the function setsysinfo exists failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a7ea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a7ea.dir/build.make CMakeFiles/cmTC_9a7ea.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a7ea.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=setsysinfo   -o CMakeFiles/cmTC_9a7ea.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9a7ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a7ea.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=setsysinfo    -rdynamic CMakeFiles/cmTC_9a7ea.dir/CheckFunctionExists.c.o  -o cmTC_9a7ea -lm -ldl 
+CMakeFiles/cmTC_9a7ea.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `setsysinfo'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9a7ea.dir/build.make:97: recipe for target 'cmTC_9a7ea' failed
+make[1]: *** [cmTC_9a7ea] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9a7ea/fast' failed
+make: *** [cmTC_9a7ea/fast] Error 2
+
+
+Determining if the function sigsetjmp exists failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e66c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e66c4.dir/build.make CMakeFiles/cmTC_e66c4.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e66c4.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=sigsetjmp   -o CMakeFiles/cmTC_e66c4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e66c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e66c4.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=sigsetjmp    -rdynamic CMakeFiles/cmTC_e66c4.dir/CheckFunctionExists.c.o  -o cmTC_e66c4 -lm -ldl 
+CMakeFiles/cmTC_e66c4.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sigsetjmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e66c4.dir/build.make:97: recipe for target 'cmTC_e66c4' failed
+make[1]: *** [cmTC_e66c4] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e66c4/fast' failed
+make: *** [cmTC_e66c4/fast] Error 2
+
+
+Performing CXX Test OLD_HEADER_FILENAME failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c0cc7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c0cc7.dir/build.make CMakeFiles/cmTC_c0cc7.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c0cc7.dir/HDFCXXTests.cpp.o
+/usr/bin/g++    -msse2 -msse4.2 -mpopcnt -DOLD_HEADER_FILENAME  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_c0cc7.dir/HDFCXXTests.cpp.o -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake_ext_mod/HDFCXXTests.cpp
+Linking CXX executable cmTC_c0cc7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0cc7.dir/link.txt --verbose=1
+/usr/bin/g++   -msse2 -msse4.2 -mpopcnt -DOLD_HEADER_FILENAME  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE    -rdynamic CMakeFiles/cmTC_c0cc7.dir/HDFCXXTests.cpp.o  -o cmTC_c0cc7 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+
+Performing CXX Test H5_NO_NAMESPACE failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11fbb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_11fbb.dir/build.make CMakeFiles/cmTC_11fbb.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_11fbb.dir/HDFCXXTests.cpp.o
+/usr/bin/g++    -msse2 -msse4.2 -mpopcnt -DH5_NO_NAMESPACE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_11fbb.dir/HDFCXXTests.cpp.o -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake_ext_mod/HDFCXXTests.cpp
+Linking CXX executable cmTC_11fbb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11fbb.dir/link.txt --verbose=1
+/usr/bin/g++   -msse2 -msse4.2 -mpopcnt -DH5_NO_NAMESPACE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE    -rdynamic CMakeFiles/cmTC_11fbb.dir/HDFCXXTests.cpp.o  -o cmTC_11fbb -lm -ldl 
+/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_11fbb.dir/build.make:97: recipe for target 'cmTC_11fbb' failed
+make[1]: *** [cmTC_11fbb] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_11fbb/fast' failed
+make: *** [cmTC_11fbb/fast] Error 2
+
+Performing CXX Test H5_NO_STD failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95d61/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95d61.dir/build.make CMakeFiles/cmTC_95d61.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_95d61.dir/HDFCXXTests.cpp.o
+/usr/bin/g++    -msse2 -msse4.2 -mpopcnt -DH5_NO_STD  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_95d61.dir/HDFCXXTests.cpp.o -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake_ext_mod/HDFCXXTests.cpp
+Linking CXX executable cmTC_95d61
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95d61.dir/link.txt --verbose=1
+/usr/bin/g++   -msse2 -msse4.2 -mpopcnt -DH5_NO_STD  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE    -rdynamic CMakeFiles/cmTC_95d61.dir/HDFCXXTests.cpp.o  -o cmTC_95d61 -lm -ldl 
+/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_95d61.dir/build.make:97: recipe for target 'cmTC_95d61' failed
+make[1]: *** [cmTC_95d61] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_95d61/fast' failed
+make: *** [cmTC_95d61/fast] Error 2
+
+Performing CXX Test BOOL_NOTDEFINED failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_84b5c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_84b5c.dir/build.make CMakeFiles/cmTC_84b5c.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_84b5c.dir/HDFCXXTests.cpp.o
+/usr/bin/g++    -msse2 -msse4.2 -mpopcnt -DBOOL_NOTDEFINED  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_84b5c.dir/HDFCXXTests.cpp.o -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake_ext_mod/HDFCXXTests.cpp
+Linking CXX executable cmTC_84b5c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84b5c.dir/link.txt --verbose=1
+/usr/bin/g++   -msse2 -msse4.2 -mpopcnt -DBOOL_NOTDEFINED  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE    -rdynamic CMakeFiles/cmTC_84b5c.dir/HDFCXXTests.cpp.o  -o cmTC_84b5c -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+
+Performing CXX Test NO_STATIC_CAST failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bccbd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bccbd.dir/build.make CMakeFiles/cmTC_bccbd.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bccbd.dir/HDFCXXTests.cpp.o
+/usr/bin/g++    -msse2 -msse4.2 -mpopcnt -DNO_STATIC_CAST  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTC_bccbd.dir/HDFCXXTests.cpp.o -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake_ext_mod/HDFCXXTests.cpp
+Linking CXX executable cmTC_bccbd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bccbd.dir/link.txt --verbose=1
+/usr/bin/g++   -msse2 -msse4.2 -mpopcnt -DNO_STATIC_CAST  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE    -rdynamic CMakeFiles/cmTC_bccbd.dir/HDFCXXTests.cpp.o  -o cmTC_bccbd -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+
+Determining if the function clock_gettime exists in the posix4 failed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40c03/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40c03.dir/build.make CMakeFiles/cmTC_40c03.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40c03.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_40c03.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_40c03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40c03.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=clock_gettime    -rdynamic CMakeFiles/cmTC_40c03.dir/CheckFunctionExists.c.o  -o cmTC_40c03 -lposix4 -lm -ldl 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lposix4
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_40c03.dir/build.make:97: recipe for target 'cmTC_40c03' failed
+make[1]: *** [cmTC_40c03] Error 1
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_40c03/fast' failed
+make: *** [cmTC_40c03/fast] Error 2
+
+
+Test H5_LDOUBLE_TO_LONG_SPECIAL Run failed with the following output and exit code:
+ Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e18ca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e18ca.dir/build.make CMakeFiles/cmTC_e18ca.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e18ca.dir/ConversionTests.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt -DH5_LDOUBLE_TO_LONG_SPECIAL_TEST   -o CMakeFiles/cmTC_e18ca.dir/ConversionTests.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake/ConversionTests.c
+Linking C executable cmTC_e18ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e18ca.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DH5_LDOUBLE_TO_LONG_SPECIAL_TEST    -rdynamic CMakeFiles/cmTC_e18ca.dir/ConversionTests.c.o  -o cmTC_e18ca 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+
+Test H5_LONG_TO_LDOUBLE_SPECIAL Run failed with the following output and exit code:
+ Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49a7c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49a7c.dir/build.make CMakeFiles/cmTC_49a7c.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49a7c.dir/ConversionTests.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt -DH5_LONG_TO_LDOUBLE_SPECIAL_TEST   -o CMakeFiles/cmTC_49a7c.dir/ConversionTests.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/thirdparty/gatb-core/gatb-core/thirdparty/hdf5/config/cmake/ConversionTests.c
+Linking C executable cmTC_49a7c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49a7c.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DH5_LONG_TO_LDOUBLE_SPECIAL_TEST    -rdynamic CMakeFiles/cmTC_49a7c.dir/ConversionTests.c.o  -o cmTC_49a7c 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/GraphTraversal/minia/build/CMakeFiles/CMakeTmp'
+

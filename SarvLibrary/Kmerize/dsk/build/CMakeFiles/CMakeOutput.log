@@ -1,0 +1,2290 @@
+The system is: Linux - 4.15.0-43-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6cf2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6cf2.dir/build.make CMakeFiles/cmTC_b6cf2.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6cf2.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_b6cf2.dir/testCCompiler.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b6cf2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6cf2.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_b6cf2.dir/testCCompiler.c.o  -o cmTC_b6cf2 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80de3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80de3.dir/build.make CMakeFiles/cmTC_80de3.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80de3.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_80de3.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_80de3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80de3.dir/link.txt --verbose=1
+/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_80de3.dir/CMakeCCompilerABI.c.o  -o cmTC_80de3 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 6.5.0-2ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-as=/usr/bin/x86_64-linux-gnu-as --with-ld=/usr/bin/x86_64-linux-gnu-ld --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 6.5.0 20181026 (Ubuntu 6.5.0-2ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_80de3' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfV7LMM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_80de3 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_80de3.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_80de3' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_80de3/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_80de3.dir/build.make CMakeFiles/cmTC_80de3.dir/build]
+  ignore line: [make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_80de3.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTC_80de3.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_80de3]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80de3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_80de3.dir/CMakeCCompilerABI.c.o  -o cmTC_80de3 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 6.5.0-2ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-as=/usr/bin/x86_64-linux-gnu-as --with-ld=/usr/bin/x86_64-linux-gnu-ld --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.5.0 20181026 (Ubuntu 6.5.0-2ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_80de3' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfV7LMM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_80de3 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_80de3.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccfV7LMM.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_80de3] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
+    arg [CMakeFiles/cmTC_80de3.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6] ==> [/usr/lib/gcc/x86_64-linux-gnu/6]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/6;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ba44/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ba44.dir/build.make CMakeFiles/cmTC_1ba44.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ba44.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c11 -o CMakeFiles/cmTC_1ba44.dir/feature_tests.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1ba44
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ba44.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_1ba44.dir/feature_tests.c.o  -o cmTC_1ba44 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5ab8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5ab8.dir/build.make CMakeFiles/cmTC_b5ab8.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5ab8.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c99 -o CMakeFiles/cmTC_b5ab8.dir/feature_tests.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b5ab8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5ab8.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_b5ab8.dir/feature_tests.c.o  -o cmTC_b5ab8 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a283/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0a283.dir/build.make CMakeFiles/cmTC_0a283.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a283.dir/feature_tests.c.o
+/usr/bin/gcc   -std=c90 -o CMakeFiles/cmTC_0a283.dir/feature_tests.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0a283
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a283.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_0a283.dir/feature_tests.c.o  -o cmTC_0a283 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70c22/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70c22.dir/build.make CMakeFiles/cmTC_70c22.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_70c22.dir/testCXXCompiler.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTC_70c22.dir/testCXXCompiler.cxx.o -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_70c22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70c22.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_70c22.dir/testCXXCompiler.cxx.o  -o cmTC_70c22 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b99fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b99fd.dir/build.make CMakeFiles/cmTC_b99fd.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b99fd.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++     -o CMakeFiles/cmTC_b99fd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_b99fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b99fd.dir/link.txt --verbose=1
+/usr/bin/g++      -v -rdynamic CMakeFiles/cmTC_b99fd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b99fd 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 6.5.0-2ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-as=/usr/bin/x86_64-linux-gnu-as --with-ld=/usr/bin/x86_64-linux-gnu-ld --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 6.5.0 20181026 (Ubuntu 6.5.0-2ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b99fd' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cciE7IIc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b99fd /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_b99fd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b99fd' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b99fd/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b99fd.dir/build.make CMakeFiles/cmTC_b99fd.dir/build]
+  ignore line: [make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_b99fd.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++     -o CMakeFiles/cmTC_b99fd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_b99fd]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b99fd.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++      -v -rdynamic CMakeFiles/cmTC_b99fd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b99fd ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 6.5.0-2ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-as=/usr/bin/x86_64-linux-gnu-as --with-ld=/usr/bin/x86_64-linux-gnu-ld --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.5.0 20181026 (Ubuntu 6.5.0-2ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b99fd' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cciE7IIc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b99fd /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_b99fd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cciE7IIc.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b99fd] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
+    arg [CMakeFiles/cmTC_b99fd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6] ==> [/usr/lib/gcc/x86_64-linux-gnu/6]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/6;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50adc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50adc.dir/build.make CMakeFiles/cmTC_50adc.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_50adc.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++1z -o CMakeFiles/cmTC_50adc.dir/feature_tests.cxx.o -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_50adc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50adc.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_50adc.dir/feature_tests.cxx.o  -o cmTC_50adc 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55c25/fast"
+/usr/bin/make -f CMakeFiles/cmTC_55c25.dir/build.make CMakeFiles/cmTC_55c25.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_55c25.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++14 -o CMakeFiles/cmTC_55c25.dir/feature_tests.cxx.o -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_55c25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55c25.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_55c25.dir/feature_tests.cxx.o  -o cmTC_55c25 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dbb10/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dbb10.dir/build.make CMakeFiles/cmTC_dbb10.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dbb10.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++11 -o CMakeFiles/cmTC_dbb10.dir/feature_tests.cxx.o -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_dbb10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbb10.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_dbb10.dir/feature_tests.cxx.o  -o cmTC_dbb10 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_def53/fast"
+/usr/bin/make -f CMakeFiles/cmTC_def53.dir/build.make CMakeFiles/cmTC_def53.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_def53.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++98 -o CMakeFiles/cmTC_def53.dir/feature_tests.cxx.o -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_def53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_def53.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_def53.dir/feature_tests.cxx.o  -o cmTC_def53 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_08d26/fast"
+/usr/bin/make -f CMakeFiles/cmTC_08d26.dir/build.make CMakeFiles/cmTC_08d26.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08d26.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_08d26.dir/CheckIncludeFile.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_08d26
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08d26.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_08d26.dir/CheckIncludeFile.c.o  -o cmTC_08d26 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f59f6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f59f6.dir/build.make CMakeFiles/cmTC_f59f6.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f59f6.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_f59f6.dir/CheckIncludeFile.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f59f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f59f6.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_f59f6.dir/CheckIncludeFile.c.o  -o cmTC_f59f6 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_447d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_447d7.dir/build.make CMakeFiles/cmTC_447d7.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_447d7.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_447d7.dir/CheckIncludeFile.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_447d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_447d7.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_447d7.dir/CheckIncludeFile.c.o  -o cmTC_447d7 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of __uint128_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9c1b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c9c1b.dir/build.make CMakeFiles/cmTC_c9c1b.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9c1b.dir/int128_t_USE__uint128_t.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_c9c1b.dir/int128_t_USE__uint128_t.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/int128_t_USE__uint128_t.c
+Linking C executable cmTC_c9c1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9c1b.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_c9c1b.dir/int128_t_USE__uint128_t.c.o  -o cmTC_c9c1b 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler has std namespace passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d993/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3d993.dir/build.make CMakeFiles/cmTC_3d993.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3d993.dir/TestForSTDNamespace.cxx.o
+/usr/bin/g++    -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_3d993.dir/TestForSTDNamespace.cxx.o -c /usr/share/cmake-3.10/Modules/TestForSTDNamespace.cxx
+Linking CXX executable cmTC_3d993
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d993.dir/link.txt --verbose=1
+/usr/bin/g++   -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_3d993.dir/TestForSTDNamespace.cxx.o  -o cmTC_3d993 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ceil exists in the m; passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_077c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_077c9.dir/build.make CMakeFiles/cmTC_077c9.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_077c9.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=ceil   -o CMakeFiles/cmTC_077c9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘ceil’
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_077c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_077c9.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=ceil    -rdynamic CMakeFiles/cmTC_077c9.dir/CheckFunctionExists.c.o  -o cmTC_077c9 -lm 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dlopen exists in the dl;m passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e10e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e10e.dir/build.make CMakeFiles/cmTC_5e10e.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e10e.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_5e10e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5e10e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e10e.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=dlopen    -rdynamic CMakeFiles/cmTC_5e10e.dir/CheckFunctionExists.c.o  -o cmTC_5e10e -ldl -lm 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52754/fast"
+/usr/bin/make -f CMakeFiles/cmTC_52754.dir/build.make CMakeFiles/cmTC_52754.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52754.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_52754.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_52754
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52754.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_52754.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_52754 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1d186/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1d186.dir/build.make CMakeFiles/cmTC_1d186.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d186.dir/TestEndianess.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_1d186.dir/TestEndianess.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_1d186
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d186.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_1d186.dir/TestEndianess.c.o  -o cmTC_1d186 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if files ;sys/resource.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6ebe2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6ebe2.dir/build.make CMakeFiles/cmTC_6ebe2.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ebe2.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_6ebe2.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_6ebe2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ebe2.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_6ebe2.dir/CheckIncludeFiles.c.o  -o cmTC_6ebe2 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c56f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c56f.dir/build.make CMakeFiles/cmTC_7c56f.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c56f.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_7c56f.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_7c56f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c56f.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_7c56f.dir/CheckIncludeFiles.c.o  -o cmTC_7c56f 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3710d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3710d.dir/build.make CMakeFiles/cmTC_3710d.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3710d.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_3710d.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_3710d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3710d.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_3710d.dir/CheckIncludeFiles.c.o  -o cmTC_3710d 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98694/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98694.dir/build.make CMakeFiles/cmTC_98694.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98694.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_98694.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_98694
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98694.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_98694.dir/CheckIncludeFiles.c.o  -o cmTC_98694 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4894e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4894e.dir/build.make CMakeFiles/cmTC_4894e.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4894e.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_4894e.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_4894e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4894e.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_4894e.dir/CheckIncludeFiles.c.o  -o cmTC_4894e 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c6121/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c6121.dir/build.make CMakeFiles/cmTC_c6121.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6121.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_c6121.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_c6121
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6121.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_c6121.dir/CheckIncludeFiles.c.o  -o cmTC_c6121 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4f723/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f723.dir/build.make CMakeFiles/cmTC_4f723.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f723.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_4f723.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_4f723
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f723.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_4f723.dir/CheckIncludeFiles.c.o  -o cmTC_4f723 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65607/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65607.dir/build.make CMakeFiles/cmTC_65607.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65607.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_65607.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_65607
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65607.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_65607.dir/CheckIncludeFiles.c.o  -o cmTC_65607 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_faf73/fast"
+/usr/bin/make -f CMakeFiles/cmTC_faf73.dir/build.make CMakeFiles/cmTC_faf73.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_faf73.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_faf73.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_faf73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_faf73.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_faf73.dir/CheckIncludeFiles.c.o  -o cmTC_faf73 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6a803/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6a803.dir/build.make CMakeFiles/cmTC_6a803.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a803.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_6a803.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_6a803
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a803.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_6a803.dir/CheckIncludeFiles.c.o  -o cmTC_6a803 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9ab1b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9ab1b.dir/build.make CMakeFiles/cmTC_9ab1b.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ab1b.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_9ab1b.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_9ab1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ab1b.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_9ab1b.dir/CheckIncludeFiles.c.o  -o cmTC_9ab1b 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee21f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ee21f.dir/build.make CMakeFiles/cmTC_ee21f.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee21f.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_ee21f.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_ee21f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee21f.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_ee21f.dir/CheckIncludeFiles.c.o  -o cmTC_ee21f 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_febc9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_febc9.dir/build.make CMakeFiles/cmTC_febc9.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_febc9.dir/CheckIncludeFile.cxx.o
+/usr/bin/g++    -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_febc9.dir/CheckIncludeFile.cxx.o -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_febc9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_febc9.dir/link.txt --verbose=1
+/usr/bin/g++   -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_febc9.dir/CheckIncludeFile.cxx.o  -o cmTC_febc9 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;sys/timeb.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7929c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7929c.dir/build.make CMakeFiles/cmTC_7929c.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7929c.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_7929c.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_7929c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7929c.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_7929c.dir/CheckIncludeFiles.c.o  -o cmTC_7929c 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;sys/timeb.h;pthread.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a8eaa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8eaa.dir/build.make CMakeFiles/cmTC_a8eaa.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8eaa.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_a8eaa.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_a8eaa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8eaa.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_a8eaa.dir/CheckIncludeFiles.c.o  -o cmTC_a8eaa 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;sys/timeb.h;pthread.h;string.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71be9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71be9.dir/build.make CMakeFiles/cmTC_71be9.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71be9.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_71be9.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_71be9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71be9.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_71be9.dir/CheckIncludeFiles.c.o  -o cmTC_71be9 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;sys/timeb.h;pthread.h;string.h;strings.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5aff8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5aff8.dir/build.make CMakeFiles/cmTC_5aff8.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5aff8.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_5aff8.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_5aff8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5aff8.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_5aff8.dir/CheckIncludeFiles.c.o  -o cmTC_5aff8 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;sys/timeb.h;pthread.h;string.h;strings.h;stdlib.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7aaae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7aaae.dir/build.make CMakeFiles/cmTC_7aaae.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7aaae.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_7aaae.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_7aaae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7aaae.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_7aaae.dir/CheckIncludeFiles.c.o  -o cmTC_7aaae 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;sys/timeb.h;pthread.h;string.h;strings.h;stdlib.h;memory.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_25040/fast"
+/usr/bin/make -f CMakeFiles/cmTC_25040.dir/build.make CMakeFiles/cmTC_25040.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25040.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_25040.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_25040
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25040.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_25040.dir/CheckIncludeFiles.c.o  -o cmTC_25040 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;sys/timeb.h;pthread.h;string.h;strings.h;stdlib.h;memory.h;dlfcn.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5afc2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5afc2.dir/build.make CMakeFiles/cmTC_5afc2.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5afc2.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_5afc2.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_5afc2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5afc2.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_5afc2.dir/CheckIncludeFiles.c.o  -o cmTC_5afc2 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;sys/timeb.h;pthread.h;string.h;strings.h;stdlib.h;memory.h;dlfcn.h;inttypes.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fbb2f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fbb2f.dir/build.make CMakeFiles/cmTC_fbb2f.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbb2f.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_fbb2f.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_fbb2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbb2f.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_fbb2f.dir/CheckIncludeFiles.c.o  -o cmTC_fbb2f 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;sys/timeb.h;pthread.h;string.h;strings.h;stdlib.h;memory.h;dlfcn.h;inttypes.h;netinet/in.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68b3b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68b3b.dir/build.make CMakeFiles/cmTC_68b3b.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68b3b.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_68b3b.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_68b3b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68b3b.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_68b3b.dir/CheckIncludeFiles.c.o  -o cmTC_68b3b 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function lseek64 exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_647f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_647f4.dir/build.make CMakeFiles/cmTC_647f4.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_647f4.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=lseek64   -o CMakeFiles/cmTC_647f4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_647f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_647f4.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=lseek64    -rdynamic CMakeFiles/cmTC_647f4.dir/CheckFunctionExists.c.o  -o cmTC_647f4 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fseeko64 exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10c90/fast"
+/usr/bin/make -f CMakeFiles/cmTC_10c90.dir/build.make CMakeFiles/cmTC_10c90.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10c90.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=fseeko64   -o CMakeFiles/cmTC_10c90.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_10c90
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10c90.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=fseeko64    -rdynamic CMakeFiles/cmTC_10c90.dir/CheckFunctionExists.c.o  -o cmTC_10c90 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ftello64 exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dafc2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dafc2.dir/build.make CMakeFiles/cmTC_dafc2.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dafc2.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=ftello64   -o CMakeFiles/cmTC_dafc2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dafc2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dafc2.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=ftello64    -rdynamic CMakeFiles/cmTC_dafc2.dir/CheckFunctionExists.c.o  -o cmTC_dafc2 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ftruncate64 exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80496/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80496.dir/build.make CMakeFiles/cmTC_80496.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80496.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=ftruncate64   -o CMakeFiles/cmTC_80496.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_80496
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80496.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=ftruncate64    -rdynamic CMakeFiles/cmTC_80496.dir/CheckFunctionExists.c.o  -o cmTC_80496 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0957/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a0957.dir/build.make CMakeFiles/cmTC_a0957.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0957.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTC_a0957.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a0957
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0957.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=fseeko    -rdynamic CMakeFiles/cmTC_a0957.dir/CheckFunctionExists.c.o  -o cmTC_a0957 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ftello exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db3cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db3cc.dir/build.make CMakeFiles/cmTC_db3cc.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db3cc.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=ftello   -o CMakeFiles/cmTC_db3cc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_db3cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db3cc.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=ftello    -rdynamic CMakeFiles/cmTC_db3cc.dir/CheckFunctionExists.c.o  -o cmTC_db3cc -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fstat64 exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c601e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c601e.dir/build.make CMakeFiles/cmTC_c601e.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c601e.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=fstat64   -o CMakeFiles/cmTC_c601e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c601e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c601e.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=fstat64    -rdynamic CMakeFiles/cmTC_c601e.dir/CheckFunctionExists.c.o  -o cmTC_c601e -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function stat64 exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dfeaf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dfeaf.dir/build.make CMakeFiles/cmTC_dfeaf.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfeaf.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=stat64   -o CMakeFiles/cmTC_dfeaf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dfeaf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfeaf.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=stat64    -rdynamic CMakeFiles/cmTC_dfeaf.dir/CheckFunctionExists.c.o  -o cmTC_dfeaf -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of char passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4fb82/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4fb82.dir/build.make CMakeFiles/cmTC_4fb82.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4fb82.dir/H5_SIZEOF_CHAR.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_4fb82.dir/H5_SIZEOF_CHAR.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_CHAR.c
+Linking C executable cmTC_4fb82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fb82.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_4fb82.dir/H5_SIZEOF_CHAR.c.o  -o cmTC_4fb82 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8cfd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8cfd.dir/build.make CMakeFiles/cmTC_c8cfd.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8cfd.dir/H5_SIZEOF_SHORT.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_c8cfd.dir/H5_SIZEOF_SHORT.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_SHORT.c
+Linking C executable cmTC_c8cfd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8cfd.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_c8cfd.dir/H5_SIZEOF_SHORT.c.o  -o cmTC_c8cfd -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_88ea6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88ea6.dir/build.make CMakeFiles/cmTC_88ea6.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88ea6.dir/H5_SIZEOF_INT.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_88ea6.dir/H5_SIZEOF_INT.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT.c
+Linking C executable cmTC_88ea6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88ea6.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_88ea6.dir/H5_SIZEOF_INT.c.o  -o cmTC_88ea6 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7cf56/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7cf56.dir/build.make CMakeFiles/cmTC_7cf56.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7cf56.dir/H5_SIZEOF_UNSIGNED.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_7cf56.dir/H5_SIZEOF_UNSIGNED.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UNSIGNED.c
+Linking C executable cmTC_7cf56
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cf56.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_7cf56.dir/H5_SIZEOF_UNSIGNED.c.o  -o cmTC_7cf56 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_56e73/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56e73.dir/build.make CMakeFiles/cmTC_56e73.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56e73.dir/H5_SIZEOF_LONG.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_56e73.dir/H5_SIZEOF_LONG.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_LONG.c
+Linking C executable cmTC_56e73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56e73.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_56e73.dir/H5_SIZEOF_LONG.c.o  -o cmTC_56e73 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_354aa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_354aa.dir/build.make CMakeFiles/cmTC_354aa.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_354aa.dir/H5_SIZEOF_LONG_LONG.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_354aa.dir/H5_SIZEOF_LONG_LONG.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_LONG_LONG.c
+Linking C executable cmTC_354aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_354aa.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_354aa.dir/H5_SIZEOF_LONG_LONG.c.o  -o cmTC_354aa -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of float passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d5d84/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d5d84.dir/build.make CMakeFiles/cmTC_d5d84.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5d84.dir/H5_SIZEOF_FLOAT.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_d5d84.dir/H5_SIZEOF_FLOAT.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_FLOAT.c
+Linking C executable cmTC_d5d84
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5d84.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_d5d84.dir/H5_SIZEOF_FLOAT.c.o  -o cmTC_d5d84 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of double passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bb500/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bb500.dir/build.make CMakeFiles/cmTC_bb500.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb500.dir/H5_SIZEOF_DOUBLE.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_bb500.dir/H5_SIZEOF_DOUBLE.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_DOUBLE.c
+Linking C executable cmTC_bb500
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb500.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_bb500.dir/H5_SIZEOF_DOUBLE.c.o  -o cmTC_bb500 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long double passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f45c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7f45c.dir/build.make CMakeFiles/cmTC_7f45c.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f45c.dir/H5_SIZEOF_LONG_DOUBLE.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_7f45c.dir/H5_SIZEOF_LONG_DOUBLE.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_LONG_DOUBLE.c
+Linking C executable cmTC_7f45c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f45c.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_7f45c.dir/H5_SIZEOF_LONG_DOUBLE.c.o  -o cmTC_7f45c -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_17237/fast"
+/usr/bin/make -f CMakeFiles/cmTC_17237.dir/build.make CMakeFiles/cmTC_17237.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17237.dir/H5_SIZEOF_INT8_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_17237.dir/H5_SIZEOF_INT8_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT8_T.c
+Linking C executable cmTC_17237
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17237.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_17237.dir/H5_SIZEOF_INT8_T.c.o  -o cmTC_17237 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c1b8e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c1b8e.dir/build.make CMakeFiles/cmTC_c1b8e.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1b8e.dir/H5_SIZEOF_UINT8_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_c1b8e.dir/H5_SIZEOF_UINT8_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT8_T.c
+Linking C executable cmTC_c1b8e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1b8e.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_c1b8e.dir/H5_SIZEOF_UINT8_T.c.o  -o cmTC_c1b8e -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int_least8_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4ad45/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4ad45.dir/build.make CMakeFiles/cmTC_4ad45.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ad45.dir/H5_SIZEOF_INT_LEAST8_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_4ad45.dir/H5_SIZEOF_INT_LEAST8_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_LEAST8_T.c
+Linking C executable cmTC_4ad45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ad45.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_4ad45.dir/H5_SIZEOF_INT_LEAST8_T.c.o  -o cmTC_4ad45 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint_least8_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eee0e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eee0e.dir/build.make CMakeFiles/cmTC_eee0e.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eee0e.dir/H5_SIZEOF_UINT_LEAST8_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_eee0e.dir/H5_SIZEOF_UINT_LEAST8_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_LEAST8_T.c
+Linking C executable cmTC_eee0e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eee0e.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_eee0e.dir/H5_SIZEOF_UINT_LEAST8_T.c.o  -o cmTC_eee0e -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int_fast8_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_25db7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_25db7.dir/build.make CMakeFiles/cmTC_25db7.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25db7.dir/H5_SIZEOF_INT_FAST8_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_25db7.dir/H5_SIZEOF_INT_FAST8_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_FAST8_T.c
+Linking C executable cmTC_25db7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25db7.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_25db7.dir/H5_SIZEOF_INT_FAST8_T.c.o  -o cmTC_25db7 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint_fast8_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b368a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b368a.dir/build.make CMakeFiles/cmTC_b368a.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b368a.dir/H5_SIZEOF_UINT_FAST8_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_b368a.dir/H5_SIZEOF_UINT_FAST8_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_FAST8_T.c
+Linking C executable cmTC_b368a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b368a.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_b368a.dir/H5_SIZEOF_UINT_FAST8_T.c.o  -o cmTC_b368a -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_babcc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_babcc.dir/build.make CMakeFiles/cmTC_babcc.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_babcc.dir/H5_SIZEOF_INT16_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_babcc.dir/H5_SIZEOF_INT16_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT16_T.c
+Linking C executable cmTC_babcc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_babcc.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_babcc.dir/H5_SIZEOF_INT16_T.c.o  -o cmTC_babcc -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_870e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_870e4.dir/build.make CMakeFiles/cmTC_870e4.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_870e4.dir/H5_SIZEOF_UINT16_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_870e4.dir/H5_SIZEOF_UINT16_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT16_T.c
+Linking C executable cmTC_870e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_870e4.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_870e4.dir/H5_SIZEOF_UINT16_T.c.o  -o cmTC_870e4 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int_least16_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae61a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae61a.dir/build.make CMakeFiles/cmTC_ae61a.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae61a.dir/H5_SIZEOF_INT_LEAST16_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_ae61a.dir/H5_SIZEOF_INT_LEAST16_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_LEAST16_T.c
+Linking C executable cmTC_ae61a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae61a.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_ae61a.dir/H5_SIZEOF_INT_LEAST16_T.c.o  -o cmTC_ae61a -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint_least16_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_232f5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_232f5.dir/build.make CMakeFiles/cmTC_232f5.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_232f5.dir/H5_SIZEOF_UINT_LEAST16_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_232f5.dir/H5_SIZEOF_UINT_LEAST16_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_LEAST16_T.c
+Linking C executable cmTC_232f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_232f5.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_232f5.dir/H5_SIZEOF_UINT_LEAST16_T.c.o  -o cmTC_232f5 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int_fast16_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6337b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6337b.dir/build.make CMakeFiles/cmTC_6337b.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6337b.dir/H5_SIZEOF_INT_FAST16_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_6337b.dir/H5_SIZEOF_INT_FAST16_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_FAST16_T.c
+Linking C executable cmTC_6337b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6337b.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_6337b.dir/H5_SIZEOF_INT_FAST16_T.c.o  -o cmTC_6337b -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint_fast16_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83d20/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83d20.dir/build.make CMakeFiles/cmTC_83d20.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83d20.dir/H5_SIZEOF_UINT_FAST16_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_83d20.dir/H5_SIZEOF_UINT_FAST16_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_FAST16_T.c
+Linking C executable cmTC_83d20
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83d20.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_83d20.dir/H5_SIZEOF_UINT_FAST16_T.c.o  -o cmTC_83d20 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_69a81/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69a81.dir/build.make CMakeFiles/cmTC_69a81.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69a81.dir/H5_SIZEOF_INT32_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_69a81.dir/H5_SIZEOF_INT32_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT32_T.c
+Linking C executable cmTC_69a81
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69a81.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_69a81.dir/H5_SIZEOF_INT32_T.c.o  -o cmTC_69a81 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34349/fast"
+/usr/bin/make -f CMakeFiles/cmTC_34349.dir/build.make CMakeFiles/cmTC_34349.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34349.dir/H5_SIZEOF_UINT32_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_34349.dir/H5_SIZEOF_UINT32_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT32_T.c
+Linking C executable cmTC_34349
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34349.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_34349.dir/H5_SIZEOF_UINT32_T.c.o  -o cmTC_34349 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int_least32_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ff92/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7ff92.dir/build.make CMakeFiles/cmTC_7ff92.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ff92.dir/H5_SIZEOF_INT_LEAST32_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_7ff92.dir/H5_SIZEOF_INT_LEAST32_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_LEAST32_T.c
+Linking C executable cmTC_7ff92
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ff92.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_7ff92.dir/H5_SIZEOF_INT_LEAST32_T.c.o  -o cmTC_7ff92 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint_least32_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_152b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_152b1.dir/build.make CMakeFiles/cmTC_152b1.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_152b1.dir/H5_SIZEOF_UINT_LEAST32_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_152b1.dir/H5_SIZEOF_UINT_LEAST32_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_LEAST32_T.c
+Linking C executable cmTC_152b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_152b1.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_152b1.dir/H5_SIZEOF_UINT_LEAST32_T.c.o  -o cmTC_152b1 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int_fast32_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_88493/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88493.dir/build.make CMakeFiles/cmTC_88493.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88493.dir/H5_SIZEOF_INT_FAST32_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_88493.dir/H5_SIZEOF_INT_FAST32_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_FAST32_T.c
+Linking C executable cmTC_88493
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88493.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_88493.dir/H5_SIZEOF_INT_FAST32_T.c.o  -o cmTC_88493 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint_fast32_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_142b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_142b0.dir/build.make CMakeFiles/cmTC_142b0.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_142b0.dir/H5_SIZEOF_UINT_FAST32_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_142b0.dir/H5_SIZEOF_UINT_FAST32_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_FAST32_T.c
+Linking C executable cmTC_142b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_142b0.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_142b0.dir/H5_SIZEOF_UINT_FAST32_T.c.o  -o cmTC_142b0 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_edeca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_edeca.dir/build.make CMakeFiles/cmTC_edeca.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_edeca.dir/H5_SIZEOF_INT64_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_edeca.dir/H5_SIZEOF_INT64_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT64_T.c
+Linking C executable cmTC_edeca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edeca.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_edeca.dir/H5_SIZEOF_INT64_T.c.o  -o cmTC_edeca -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd102/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fd102.dir/build.make CMakeFiles/cmTC_fd102.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd102.dir/H5_SIZEOF_UINT64_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_fd102.dir/H5_SIZEOF_UINT64_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT64_T.c
+Linking C executable cmTC_fd102
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd102.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_fd102.dir/H5_SIZEOF_UINT64_T.c.o  -o cmTC_fd102 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int_least64_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68293/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68293.dir/build.make CMakeFiles/cmTC_68293.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68293.dir/H5_SIZEOF_INT_LEAST64_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_68293.dir/H5_SIZEOF_INT_LEAST64_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_LEAST64_T.c
+Linking C executable cmTC_68293
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68293.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_68293.dir/H5_SIZEOF_INT_LEAST64_T.c.o  -o cmTC_68293 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint_least64_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f3e56/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3e56.dir/build.make CMakeFiles/cmTC_f3e56.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3e56.dir/H5_SIZEOF_UINT_LEAST64_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_f3e56.dir/H5_SIZEOF_UINT_LEAST64_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_LEAST64_T.c
+Linking C executable cmTC_f3e56
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3e56.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_f3e56.dir/H5_SIZEOF_UINT_LEAST64_T.c.o  -o cmTC_f3e56 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int_fast64_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_766d0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_766d0.dir/build.make CMakeFiles/cmTC_766d0.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_766d0.dir/H5_SIZEOF_INT_FAST64_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_766d0.dir/H5_SIZEOF_INT_FAST64_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_INT_FAST64_T.c
+Linking C executable cmTC_766d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_766d0.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_766d0.dir/H5_SIZEOF_INT_FAST64_T.c.o  -o cmTC_766d0 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint_fast64_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9f9a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9f9a.dir/build.make CMakeFiles/cmTC_d9f9a.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9f9a.dir/H5_SIZEOF_UINT_FAST64_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_d9f9a.dir/H5_SIZEOF_UINT_FAST64_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_UINT_FAST64_T.c
+Linking C executable cmTC_d9f9a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9f9a.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_d9f9a.dir/H5_SIZEOF_UINT_FAST64_T.c.o  -o cmTC_d9f9a -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e7b7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e7b7.dir/build.make CMakeFiles/cmTC_8e7b7.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e7b7.dir/H5_SIZEOF_SIZE_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_8e7b7.dir/H5_SIZEOF_SIZE_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_SIZE_T.c
+Linking C executable cmTC_8e7b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e7b7.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_8e7b7.dir/H5_SIZEOF_SIZE_T.c.o  -o cmTC_8e7b7 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4450c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4450c.dir/build.make CMakeFiles/cmTC_4450c.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4450c.dir/H5_SIZEOF_SSIZE_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_4450c.dir/H5_SIZEOF_SSIZE_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_SSIZE_T.c
+Linking C executable cmTC_4450c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4450c.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_4450c.dir/H5_SIZEOF_SSIZE_T.c.o  -o cmTC_4450c -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36431/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36431.dir/build.make CMakeFiles/cmTC_36431.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36431.dir/H5_SIZEOF_PTRDIFF_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_36431.dir/H5_SIZEOF_PTRDIFF_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_PTRDIFF_T.c
+Linking C executable cmTC_36431
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36431.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_36431.dir/H5_SIZEOF_PTRDIFF_T.c.o  -o cmTC_36431 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0b68c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0b68c.dir/build.make CMakeFiles/cmTC_0b68c.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b68c.dir/H5_SIZEOF_OFF_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_0b68c.dir/H5_SIZEOF_OFF_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_OFF_T.c
+Linking C executable cmTC_0b68c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b68c.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_0b68c.dir/H5_SIZEOF_OFF_T.c.o  -o cmTC_0b68c -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6bb66/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6bb66.dir/build.make CMakeFiles/cmTC_6bb66.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6bb66.dir/H5_SIZEOF_OFF64_T.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_6bb66.dir/H5_SIZEOF_OFF64_T.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_OFF64_T.c
+Linking C executable cmTC_6bb66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bb66.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_6bb66.dir/H5_SIZEOF_OFF64_T.c.o  -o cmTC_6bb66 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;sys/timeb.h;pthread.h;string.h;strings.h;stdlib.h;memory.h;dlfcn.h;inttypes.h;netinet/in.h;stdbool.h exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71ac4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71ac4.dir/build.make CMakeFiles/cmTC_71ac4.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71ac4.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_71ac4.dir/CheckIncludeFiles.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_71ac4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71ac4.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_71ac4.dir/CheckIncludeFiles.c.o  -o cmTC_71ac4 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of _Bool passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_164b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_164b3.dir/build.make CMakeFiles/cmTC_164b3.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_164b3.dir/H5_SIZEOF_BOOL.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_164b3.dir/H5_SIZEOF_BOOL.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CheckTypeSize/H5_SIZEOF_BOOL.c
+Linking C executable cmTC_164b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_164b3.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_164b3.dir/H5_SIZEOF_BOOL.c.o  -o cmTC_164b3 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f377b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f377b.dir/build.make CMakeFiles/cmTC_f377b.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f377b.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTC_f377b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f377b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f377b.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=gettimeofday    -rdynamic CMakeFiles/cmTC_f377b.dir/CheckFunctionExists.c.o  -o cmTC_f377b -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ioctl exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6ae7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6ae7.dir/build.make CMakeFiles/cmTC_b6ae7.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6ae7.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=ioctl   -o CMakeFiles/cmTC_b6ae7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b6ae7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6ae7.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=ioctl    -rdynamic CMakeFiles/cmTC_b6ae7.dir/CheckFunctionExists.c.o  -o cmTC_b6ae7 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the TIOCGWINSZ exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_59712/fast"
+/usr/bin/make -f CMakeFiles/cmTC_59712.dir/build.make CMakeFiles/cmTC_59712.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59712.dir/CheckSymbolExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_59712.dir/CheckSymbolExists.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_59712
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59712.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_59712.dir/CheckSymbolExists.c.o  -o cmTC_59712 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+File /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCGWINSZ
+  return ((int*)(&TIOCGWINSZ))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the TIOCGETD exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c80c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c80c9.dir/build.make CMakeFiles/cmTC_c80c9.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c80c9.dir/CheckSymbolExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_c80c9.dir/CheckSymbolExists.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c80c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c80c9.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_c80c9.dir/CheckSymbolExists.c.o  -o cmTC_c80c9 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+File /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCGETD
+  return ((int*)(&TIOCGETD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function getpwuid exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1f75b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1f75b.dir/build.make CMakeFiles/cmTC_1f75b.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f75b.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=getpwuid   -o CMakeFiles/cmTC_1f75b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1f75b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f75b.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=getpwuid    -rdynamic CMakeFiles/cmTC_1f75b.dir/CheckFunctionExists.c.o  -o cmTC_1f75b -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function alarm exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_703f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_703f4.dir/build.make CMakeFiles/cmTC_703f4.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_703f4.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=alarm   -o CMakeFiles/cmTC_703f4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_703f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_703f4.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=alarm    -rdynamic CMakeFiles/cmTC_703f4.dir/CheckFunctionExists.c.o  -o cmTC_703f4 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fork exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62ee2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_62ee2.dir/build.make CMakeFiles/cmTC_62ee2.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62ee2.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=fork   -o CMakeFiles/cmTC_62ee2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘fork’
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_62ee2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62ee2.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=fork    -rdynamic CMakeFiles/cmTC_62ee2.dir/CheckFunctionExists.c.o  -o cmTC_62ee2 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function frexpf exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af227/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af227.dir/build.make CMakeFiles/cmTC_af227.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af227.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=frexpf   -o CMakeFiles/cmTC_af227.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘frexpf’
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_af227
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af227.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=frexpf    -rdynamic CMakeFiles/cmTC_af227.dir/CheckFunctionExists.c.o  -o cmTC_af227 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function frexpl exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b7b8e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b7b8e.dir/build.make CMakeFiles/cmTC_b7b8e.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7b8e.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=frexpl   -o CMakeFiles/cmTC_b7b8e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘frexpl’
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_b7b8e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7b8e.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=frexpl    -rdynamic CMakeFiles/cmTC_b7b8e.dir/CheckFunctionExists.c.o  -o cmTC_b7b8e -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostname exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_05f47/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05f47.dir/build.make CMakeFiles/cmTC_05f47.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05f47.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=gethostname   -o CMakeFiles/cmTC_05f47.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_05f47
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05f47.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=gethostname    -rdynamic CMakeFiles/cmTC_05f47.dir/CheckFunctionExists.c.o  -o cmTC_05f47 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getrusage exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aaa7b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aaa7b.dir/build.make CMakeFiles/cmTC_aaa7b.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aaa7b.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=getrusage   -o CMakeFiles/cmTC_aaa7b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aaa7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aaa7b.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=getrusage    -rdynamic CMakeFiles/cmTC_aaa7b.dir/CheckFunctionExists.c.o  -o cmTC_aaa7b -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function lstat exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3cb9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3cb9.dir/build.make CMakeFiles/cmTC_a3cb9.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3cb9.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=lstat   -o CMakeFiles/cmTC_a3cb9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a3cb9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3cb9.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=lstat    -rdynamic CMakeFiles/cmTC_a3cb9.dir/CheckFunctionExists.c.o  -o cmTC_a3cb9 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function rand_r exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e36b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e36b.dir/build.make CMakeFiles/cmTC_0e36b.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e36b.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=rand_r   -o CMakeFiles/cmTC_0e36b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0e36b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e36b.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=rand_r    -rdynamic CMakeFiles/cmTC_0e36b.dir/CheckFunctionExists.c.o  -o cmTC_0e36b -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function random exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_499e6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_499e6.dir/build.make CMakeFiles/cmTC_499e6.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_499e6.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=random   -o CMakeFiles/cmTC_499e6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_499e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_499e6.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=random    -rdynamic CMakeFiles/cmTC_499e6.dir/CheckFunctionExists.c.o  -o cmTC_499e6 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function signal exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2b7f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b2b7f.dir/build.make CMakeFiles/cmTC_b2b7f.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b2b7f.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=signal   -o CMakeFiles/cmTC_b2b7f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b2b7f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2b7f.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=signal    -rdynamic CMakeFiles/cmTC_b2b7f.dir/CheckFunctionExists.c.o  -o cmTC_b2b7f -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function longjmp exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6a4ef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6a4ef.dir/build.make CMakeFiles/cmTC_6a4ef.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a4ef.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=longjmp   -o CMakeFiles/cmTC_6a4ef.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6a4ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a4ef.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=longjmp    -rdynamic CMakeFiles/cmTC_6a4ef.dir/CheckFunctionExists.c.o  -o cmTC_6a4ef -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ad7b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ad7b4.dir/build.make CMakeFiles/cmTC_ad7b4.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad7b4.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=setjmp   -o CMakeFiles/cmTC_ad7b4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ad7b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad7b4.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=setjmp    -rdynamic CMakeFiles/cmTC_ad7b4.dir/CheckFunctionExists.c.o  -o cmTC_ad7b4 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function siglongjmp exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c5fb4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c5fb4.dir/build.make CMakeFiles/cmTC_c5fb4.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5fb4.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=siglongjmp   -o CMakeFiles/cmTC_c5fb4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c5fb4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5fb4.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=siglongjmp    -rdynamic CMakeFiles/cmTC_c5fb4.dir/CheckFunctionExists.c.o  -o cmTC_c5fb4 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sigprocmask exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_425d2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_425d2.dir/build.make CMakeFiles/cmTC_425d2.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_425d2.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=sigprocmask   -o CMakeFiles/cmTC_425d2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_425d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_425d2.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=sigprocmask    -rdynamic CMakeFiles/cmTC_425d2.dir/CheckFunctionExists.c.o  -o cmTC_425d2 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c54aa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c54aa.dir/build.make CMakeFiles/cmTC_c54aa.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c54aa.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles/cmTC_c54aa.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘snprintf’
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_c54aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c54aa.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=snprintf    -rdynamic CMakeFiles/cmTC_c54aa.dir/CheckFunctionExists.c.o  -o cmTC_c54aa -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function srandom exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6a5d9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6a5d9.dir/build.make CMakeFiles/cmTC_6a5d9.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a5d9.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=srandom   -o CMakeFiles/cmTC_6a5d9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6a5d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a5d9.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=srandom    -rdynamic CMakeFiles/cmTC_6a5d9.dir/CheckFunctionExists.c.o  -o cmTC_6a5d9 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07844/fast"
+/usr/bin/make -f CMakeFiles/cmTC_07844.dir/build.make CMakeFiles/cmTC_07844.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07844.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=strdup   -o CMakeFiles/cmTC_07844.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strdup’
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_07844
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07844.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=strdup    -rdynamic CMakeFiles/cmTC_07844.dir/CheckFunctionExists.c.o  -o cmTC_07844 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function symlink exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_422ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_422ed.dir/build.make CMakeFiles/cmTC_422ed.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_422ed.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=symlink   -o CMakeFiles/cmTC_422ed.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_422ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_422ed.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=symlink    -rdynamic CMakeFiles/cmTC_422ed.dir/CheckFunctionExists.c.o  -o cmTC_422ed -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function system exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dcec0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dcec0.dir/build.make CMakeFiles/cmTC_dcec0.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dcec0.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=system   -o CMakeFiles/cmTC_dcec0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dcec0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcec0.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=system    -rdynamic CMakeFiles/cmTC_dcec0.dir/CheckFunctionExists.c.o  -o cmTC_dcec0 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function tmpfile exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_129ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_129ee.dir/build.make CMakeFiles/cmTC_129ee.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_129ee.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=tmpfile   -o CMakeFiles/cmTC_129ee.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_129ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_129ee.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=tmpfile    -rdynamic CMakeFiles/cmTC_129ee.dir/CheckFunctionExists.c.o  -o cmTC_129ee -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function asprintf exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_906a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_906a7.dir/build.make CMakeFiles/cmTC_906a7.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_906a7.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=asprintf   -o CMakeFiles/cmTC_906a7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_906a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_906a7.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=asprintf    -rdynamic CMakeFiles/cmTC_906a7.dir/CheckFunctionExists.c.o  -o cmTC_906a7 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vasprintf exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d313a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d313a.dir/build.make CMakeFiles/cmTC_d313a.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d313a.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=vasprintf   -o CMakeFiles/cmTC_d313a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d313a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d313a.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=vasprintf    -rdynamic CMakeFiles/cmTC_d313a.dir/CheckFunctionExists.c.o  -o cmTC_d313a -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function waitpid exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9fbd0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9fbd0.dir/build.make CMakeFiles/cmTC_9fbd0.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9fbd0.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=waitpid   -o CMakeFiles/cmTC_9fbd0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9fbd0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fbd0.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=waitpid    -rdynamic CMakeFiles/cmTC_9fbd0.dir/CheckFunctionExists.c.o  -o cmTC_9fbd0 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce450/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce450.dir/build.make CMakeFiles/cmTC_ce450.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce450.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTC_ce450.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘vsnprintf’
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_ce450
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce450.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=vsnprintf    -rdynamic CMakeFiles/cmTC_ce450.dir/CheckFunctionExists.c.o  -o cmTC_ce450 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the sigsetjmp exist passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae6ce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae6ce.dir/build.make CMakeFiles/cmTC_ae6ce.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae6ce.dir/CheckSymbolExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt    -o CMakeFiles/cmTC_ae6ce.dir/CheckSymbolExists.c.o   -c /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ae6ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae6ce.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt     -rdynamic CMakeFiles/cmTC_ae6ce.dir/CheckSymbolExists.c.o  -o cmTC_ae6ce -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+File /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <setjmp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigsetjmp
+  return ((int*)(&sigsetjmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function difftime exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8dd32/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8dd32.dir/build.make CMakeFiles/cmTC_8dd32.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8dd32.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=difftime   -o CMakeFiles/cmTC_8dd32.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8dd32
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dd32.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=difftime    -rdynamic CMakeFiles/cmTC_8dd32.dir/CheckFunctionExists.c.o  -o cmTC_8dd32 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d02a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d02a6.dir/build.make CMakeFiles/cmTC_d02a6.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d02a6.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_d02a6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d02a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d02a6.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=clock_gettime    -rdynamic CMakeFiles/cmTC_d02a6.dir/CheckFunctionExists.c.o  -o cmTC_d02a6 -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/chris/Dropbox/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_631ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_631ff.dir/build.make CMakeFiles/cmTC_631ff.dir/build
+make[1]: Entering directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_631ff.dir/CheckFunctionExists.c.o
+/usr/bin/gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_631ff.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_631ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_631ff.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse2 -msse4.2 -mpopcnt -DCHECK_FUNCTION_EXISTS=clock_gettime    -rdynamic CMakeFiles/cmTC_631ff.dir/CheckFunctionExists.c.o  -o cmTC_631ff -lrt -lm -ldl 
+make[1]: Leaving directory '/media/chris/seagate1/chris/PurdueSchool/llvm_sarvavid/SarvLibrary/Kmerize/dsk/build/CMakeFiles/CMakeTmp'
+
+

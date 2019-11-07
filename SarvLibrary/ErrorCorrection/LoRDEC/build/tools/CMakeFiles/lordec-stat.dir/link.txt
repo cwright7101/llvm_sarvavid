@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/lordec-stat.dir/lordec-stat/src/lordec-stat.cpp.o  -o lordec-stat ../ext/gatb-core/lib/libgatbcore.a -ldl -lpthread -lz ../ext/gatb-core/lib/libhdf5.a -lm -ldl 
